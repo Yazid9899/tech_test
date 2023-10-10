@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap");
+@import url("../styles/HomeViews.css");
+@import url("../styles/PatientFormView.css");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(50, 157, 192);
+  background: linear-gradient(
+    45deg,
+    rgba(50, 157, 192, 1) 0%,
+    rgba(86, 197, 150, 1) 38%,
+    rgba(123, 228, 149, 1) 100%
+  );
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
